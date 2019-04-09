@@ -16,7 +16,7 @@
     "lint": "semistandard \"lib/**/*.js\" --fix",
     "mocha": "mocha ./test/*.test.js",
     "test": "npm run lint && nyc npm run mocha",
-    "start": "lib/app.js"
+    "start": "node lib/app.js"
   },
   "repository": {
     "type": "git",

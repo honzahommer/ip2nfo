@@ -16,6 +16,17 @@ describe('ip2nfo/app', () => {
       });
   });
 
+  it('GET /hostname', done => {
+    request(app)
+      .get('/hostname')
+      .expect(200)
+      .end((err, res) => {
+        if (err) return done(err);
+        expect(res.text).to.be.equal('');
+        done();
+      });
+  });
+
   it('GET /1.1.1.1', done => {
     request(app)
       .get('/1.1.1.1')
@@ -24,6 +35,17 @@ describe('ip2nfo/app', () => {
       .end((err, res) => {
         if (err) return done(err);
         expect(res.body.hostname).to.be.equal('one.one.one.one');
+        done();
+      });
+  });
+
+  it('GET /1.1.1.1/hostname', done => {
+    request(app)
+      .get('/1.1.1.1/hostname')
+      .expect(200)
+      .end((err, res) => {
+        if (err) return done(err);
+        expect(res.text).to.be.equal('one.one.one.one');
         done();
       });
   });
@@ -43,6 +65,18 @@ describe('ip2nfo/app', () => {
   it('GET /::1', done => {
     request(app)
       .get('/::1')
+      .set('Accept', 'application/json')
+      .expect(417)
+      .end((err, res) => {
+        if (err) return done(err);
+        expect(res.body.message).to.not.be.undefined;
+        done();
+      });
+  });
+
+  it('GET /1.1.1.1/foobar', done => {
+    request(app)
+      .get('/1.1.1.1/foobar')
       .set('Accept', 'application/json')
       .expect(417)
       .end((err, res) => {

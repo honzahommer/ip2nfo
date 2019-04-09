@@ -26,7 +26,9 @@ npm test
 
 ```bash
 curl localhost:3000
+curl localhost:3000/hostname
 curl localhost:3000/1.1.1.1
+curl localhost:3000/1.1.1.1/hostname
 ```
 
 ## License
