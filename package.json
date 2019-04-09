@@ -24,6 +24,7 @@
   },
   "author": "Honza Hommer <honza@hommer.cz>",
   "homepage": "https://github.com/honzahommer/ip2nfo#README",
+  "license": "MIT",
   "engines": {
     "node": ">= 8"
   },
