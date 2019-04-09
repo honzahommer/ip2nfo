@@ -12,7 +12,7 @@
     "release:minor": "npm version minor -m \"v%s\" && npm publish",
     "release:major": "npm version major -m \"v%s\" && npm publish",
     "publish": "git push origin --tags && npm run changelog && git push origin",
-    "changelog": "github_changelog_generator && git add CHANGELOG.md && git commit -am \"chore: updating changelog\"",
+    "changelog": "github_changelog_generator && git add CHANGELOG.md && git commit -m \"[skip ci] chore: updating changelog\"",
     "lint": "semistandard \"lib/**/*.js\" --fix",
     "mocha": "mocha ./test/*.test.js",
     "test": "npm run lint && nyc npm run mocha",
