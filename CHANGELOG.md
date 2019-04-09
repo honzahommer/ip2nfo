@@ -1,5 +1,12 @@
 # Change Log
 
+## [v1.1.0](https://github.com/honzahommer/ip2nfo/tree/v1.1.0) (2019-04-09)
+[Full Changelog](https://github.com/honzahommer/ip2nfo/compare/v1.0.0...v1.1.0)
+
+**Merged pull requests:**
+
+- Update dependencies to enable Greenkeeper 🌴 [\#1](https://github.com/honzahommer/ip2nfo/pull/1) ([greenkeeper[bot]](https://github.com/apps/greenkeeper))
+
 ## [v1.0.0](https://github.com/honzahommer/ip2nfo/tree/v1.0.0) (2019-04-09)
 
 
