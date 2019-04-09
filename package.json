@@ -1,0 +1,59 @@
+{
+  "name": "ip2nfo",
+  "description": "IP2 geolocation web server",
+  "version": "0.0.0",
+  "main": "lib/app.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "release:patch": "npm version patch && npm publish",
+    "release:minor": "npm version minor && npm publish",
+    "release:major": "npm version major && npm publish",
+    "publish": "git push origin --tags && npm run changelog && git push origin",
+    "changelog": "github_changelog_generator && git add CHANGELOG.md && git commit -am \"Updating changelog\"",
+    "lint": "semistandard \"lib/**/*.js\" --fix",
+    "mocha": "mocha ./test/*.test.js",
+    "test": "npm run lint && nyc npm run mocha",
+    "start": "lib/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/honzahommer/ip2nfo.git"
+  },
+  "author": "Honza Hommer <honza@hommer.cz>",
+  "homepage": "https://github.com/honzahommer/ip2nfo#README",
+  "engines": {
+    "node": ">= 8"
+  },
+  "husky": {
+    "hooks": {
+      "pre-push": "npm run lint"
+    }
+  },
+  "semistandard": {
+    "env": [
+      "mocha"
+    ]
+  },
+  "dependencies": {
+    "async-ip2location": "^8.1.3",
+    "config": "^3.0.1",
+    "debug": "^2.6.9",
+    "express": "~4.16.0",
+    "helmet": "^3.16.0",
+    "http-errors": "^1.7.2",
+    "ip": "^1.1.5",
+    "request-favicon": "^2.0.0",
+    "request-robots": "^2.0.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "husky": "^1.3.1",
+    "mocha": "^6.0.2",
+    "nyc": "^13.3.0",
+    "semistandard": "^13.0.1",
+    "supertest": "^4.0.2"
+  }
+}
