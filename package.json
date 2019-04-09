@@ -40,7 +40,7 @@
   "dependencies": {
     "async-ip2location": "^8.1.3",
     "config": "^3.0.1",
-    "debug": "^2.6.9",
+    "debug": "^4.1.1",
     "express": "~4.16.0",
     "helmet": "^3.16.0",
     "http-errors": "^1.7.2",
