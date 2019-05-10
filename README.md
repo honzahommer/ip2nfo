@@ -29,6 +29,7 @@ curl localhost:3000
 curl localhost:3000/hostname
 curl localhost:3000/1.1.1.1
 curl localhost:3000/1.1.1.1/hostname
+curl localhost:3000/8.8.8.8/distance/9.9.9.9
 ```
 
 ## License

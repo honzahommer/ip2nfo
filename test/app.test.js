@@ -85,4 +85,26 @@ describe('ip2nfo/app', () => {
         done();
       });
   });
+
+  it('GET /8.8.8.8/distance/9.9.9.9', done => {
+    request(app)
+      .get('/8.8.8.8/distance/9.9.9.9')
+      .expect(200)
+      .end((err, res) => {
+        if (err) return done(err);
+        expect(Number(res.text)).to.be.approximately(55.139, 0.1);
+        done();
+      });
+  });
+
+  it('GET /8.8.8.8/distance', done => {
+    request(app)
+      .get('/8.8.8.8/distance')
+      .expect(200)
+      .end((err, res) => {
+        if (err) return done(err);
+        expect(res.text).to.not.be.equal('NaN');
+        done();
+      });
+  });
 });
