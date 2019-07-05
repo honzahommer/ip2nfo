@@ -1,5 +1,15 @@
 # Change Log
 
+## [v1.1.2](https://github.com/honzahommer/ip2nfo/tree/v1.1.2) (2019-07-05)
+[Full Changelog](https://github.com/honzahommer/ip2nfo/compare/v1.1.1...v1.1.2)
+
+**Merged pull requests:**
+
+- Update husky to the latest version 🚀 [\#5](https://github.com/honzahommer/ip2nfo/pull/5) ([greenkeeper[bot]](https://github.com/apps/greenkeeper))
+- Update express to the latest version 🚀 [\#4](https://github.com/honzahommer/ip2nfo/pull/4) ([greenkeeper[bot]](https://github.com/apps/greenkeeper))
+- Update husky to the latest version 🚀 [\#3](https://github.com/honzahommer/ip2nfo/pull/3) ([greenkeeper[bot]](https://github.com/apps/greenkeeper))
+- Update nyc to the latest version 🚀 [\#2](https://github.com/honzahommer/ip2nfo/pull/2) ([greenkeeper[bot]](https://github.com/apps/greenkeeper))
+
 ## [v1.1.1](https://github.com/honzahommer/ip2nfo/tree/v1.1.1) (2019-04-09)
 [Full Changelog](https://github.com/honzahommer/ip2nfo/compare/v1.1.0...v1.1.1)
 
