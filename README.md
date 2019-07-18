@@ -16,6 +16,20 @@ npm install
 npm start
 ```
 
+or
+
+```bash
+npm install -g ip2nfo
+ip2nfo --port 3000
+```
+
+or
+
+```bash
+const ip2nfo = require('ip2nfo');
+ip2nfo.start(3000);
+```
+
 ## Tests
 
 ```bash
