@@ -1,5 +1,12 @@
 # Change Log
 
+## [v1.1.6](https://github.com/honzahommer/ip2nfo/tree/v1.1.6) (2019-07-18)
+[Full Changelog](https://github.com/honzahommer/ip2nfo/compare/v1.1.5...v1.1.6)
+
+**Merged pull requests:**
+
+- Start function should use default port [\#10](https://github.com/honzahommer/ip2nfo/pull/10) ([honzahommer](https://github.com/honzahommer))
+
 ## [v1.1.5](https://github.com/honzahommer/ip2nfo/tree/v1.1.5) (2019-07-18)
 [Full Changelog](https://github.com/honzahommer/ip2nfo/compare/v1.1.4...v1.1.5)
 
