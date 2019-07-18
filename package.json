@@ -3,7 +3,11 @@
   "description": "IP2 geolocation web server",
   "version": "1.1.6",
   "main": "lib/app.js",
+  "bin": {
+    "ip2nfo": "bin/ip2nfo"
+  },
   "directories": {
+    "bin": "bin",
     "lib": "lib",
     "test": "test"
   },
@@ -40,6 +44,7 @@
   },
   "dependencies": {
     "async-ip2location": "^8.1.3",
+    "cli": "^1.0.1",
     "config": "^3.0.1",
     "debug": "^4.1.1",
     "express": "~4.17.0",
