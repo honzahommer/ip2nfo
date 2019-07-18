@@ -1,5 +1,13 @@
 # Change Log
 
+## [v1.1.3](https://github.com/honzahommer/ip2nfo/tree/v1.1.3) (2019-07-18)
+[Full Changelog](https://github.com/honzahommer/ip2nfo/compare/v1.1.2...v1.1.3)
+
+**Merged pull requests:**
+
+- Define path to config directory [\#7](https://github.com/honzahommer/ip2nfo/pull/7) ([honzahommer](https://github.com/honzahommer))
+- Update mocha to the latest version [\#6](https://github.com/honzahommer/ip2nfo/pull/6) ([honzahommer](https://github.com/honzahommer))
+
 ## [v1.1.2](https://github.com/honzahommer/ip2nfo/tree/v1.1.2) (2019-07-05)
 [Full Changelog](https://github.com/honzahommer/ip2nfo/compare/v1.1.1...v1.1.2)
 
