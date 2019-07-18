@@ -1,5 +1,12 @@
 # Change Log
 
+## [v1.1.5](https://github.com/honzahommer/ip2nfo/tree/v1.1.5) (2019-07-18)
+[Full Changelog](https://github.com/honzahommer/ip2nfo/compare/v1.1.4...v1.1.5)
+
+**Merged pull requests:**
+
+- Update IP2Location DB [\#9](https://github.com/honzahommer/ip2nfo/pull/9) ([honzahommer](https://github.com/honzahommer))
+
 ## [v1.1.4](https://github.com/honzahommer/ip2nfo/tree/v1.1.4) (2019-07-18)
 [Full Changelog](https://github.com/honzahommer/ip2nfo/compare/v1.1.3...v1.1.4)
 
