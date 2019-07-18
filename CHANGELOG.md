@@ -1,5 +1,12 @@
 # Change Log
 
+## [v1.1.4](https://github.com/honzahommer/ip2nfo/tree/v1.1.4) (2019-07-18)
+[Full Changelog](https://github.com/honzahommer/ip2nfo/compare/v1.1.3...v1.1.4)
+
+**Merged pull requests:**
+
+- Add start function [\#8](https://github.com/honzahommer/ip2nfo/pull/8) ([honzahommer](https://github.com/honzahommer))
+
 ## [v1.1.3](https://github.com/honzahommer/ip2nfo/tree/v1.1.3) (2019-07-18)
 [Full Changelog](https://github.com/honzahommer/ip2nfo/compare/v1.1.2...v1.1.3)
 
