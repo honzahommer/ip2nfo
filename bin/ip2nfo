@@ -1,0 +1,12 @@
+#!/usr/bin/env node
+
+const cli = require('cli');
+
+const app = require('../lib/app');
+const config = require('../config');
+
+cli.parse({
+  port: [ 'p', 'Port to listen', 'string', config.port ]
+});
+
+app.start(cli.options.port);
