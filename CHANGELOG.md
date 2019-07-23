@@ -1,5 +1,8 @@
 # Change Log
 
+## [v1.1.8](https://github.com/honzahommer/ip2nfo/tree/v1.1.8) (2019-07-23)
+[Full Changelog](https://github.com/honzahommer/ip2nfo/compare/v1.1.7...v1.1.8)
+
 ## [v1.1.7](https://github.com/honzahommer/ip2nfo/tree/v1.1.7) (2019-07-18)
 [Full Changelog](https://github.com/honzahommer/ip2nfo/compare/v1.1.6...v1.1.7)
 
