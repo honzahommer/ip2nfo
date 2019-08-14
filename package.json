@@ -1,7 +1,7 @@
 {
   "name": "ip2nfo",
   "description": "IP2 geolocation web server",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "main": "lib/app.js",
   "bin": {
     "ip2nfo": "bin/ip2nfo"
