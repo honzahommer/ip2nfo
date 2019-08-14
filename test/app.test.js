@@ -11,7 +11,7 @@ describe('ip2nfo/app', () => {
       .expect(200)
       .end((err, res) => {
         if (err) return done(err);
-        expect(isV4Format(res.body.ip)).to.be.true;
+        expect(isV4Format(res.body.ip)).to.be.false;
         done();
       });
   });
@@ -22,7 +22,7 @@ describe('ip2nfo/app', () => {
       .expect(200)
       .end((err, res) => {
         if (err) return done(err);
-        expect(res.text).to.be.equal('');
+        expect(res.body.bogon).to.be.true;
         done();
       });
   });
