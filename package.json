@@ -43,21 +43,21 @@
     ]
   },
   "dependencies": {
-    "@ip2.bin/db11liteipv6": "^1.0.0",
+    "@ip2.bin/db11liteipv6": "^1.0.1",
     "async-ip2location": "^8.1.3",
     "cli": "^1.0.1",
-    "config": "^3.0.1",
+    "config": "^3.2.2",
     "debug": "^4.1.1",
-    "express": "~4.17.0",
-    "helmet": "^3.16.0",
-    "http-errors": "^1.7.2",
+    "express": "^4.17.1",
+    "helmet": "^3.20.0",
+    "http-errors": "^1.7.3",
     "ip": "^1.1.5"
   },
   "devDependencies": {
     "chai": "^4.2.0",
-    "husky": "^3.0.0",
-    "mocha": "^6.1.4",
-    "nyc": "^14.0.0",
+    "husky": "^3.0.3",
+    "mocha": "^6.2.0",
+    "nyc": "^14.1.1",
     "semistandard": "^13.0.1",
     "supertest": "^4.0.2"
   }
